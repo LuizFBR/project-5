@@ -15,11 +15,11 @@ Para obtê-lo, faça o seguinte comando no seu terminal:
 
 > git clone git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git -b staging-testing --depth=1
 
-O patch com as modificações deste projeto é o arquivo 0001-project-5-patch.patch.
+O patch com as modificações deste projeto é o arquivo 0001-first-commit.patch.
 
-Para aplicar o patch, coloque o arquivo 0001-project-5-patch.patch dentro do repositório clonado acima e rode o seguinte comando:
+Para aplicar o patch, coloque o arquivo 0001-first-commit.patch dentro do repositório clonado acima e rode o seguinte comando:
 
-> git apply --reject --whitespace=fix 0001-project-5-patch.patch
+> git apply --reject --whitespace=fix 0001-first-commit.patch
 
 
 ## Implementação
