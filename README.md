@@ -4,6 +4,8 @@
 
 Essa é uma implementação de duas chamadas de sistema, setuserweight e getuserweight, no kernel linux.  setuserweight altera o peso para um usuário e getuserweight retorna o peso associado a um usuário(donos de threads ou processos).
 Essas chamadas e pode ter diversas aplicações, como por exemplo no escalonamento de processos de modo que a CPU fosse dividida de acordo com os pesos dos usuários desse sistema operacional.
+Este vídeo explica a implementação e os testes: https://youtu.be/tT16Q5pZFv8
+
 
 ## Instruções
 
